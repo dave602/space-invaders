@@ -121,7 +121,7 @@ while running:
             if event.key == pygame.K_SPACE:
                 
                 if bullet_state is "ready":
-                    laser = pygame.mixer.Sound('laser.wav')
+                    laser = mixer.Sound('laser.wav')
                     laser.play()
                     bullet_x = player_x
                     fire_bullet(bullet_x, bullet_y)
